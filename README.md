@@ -31,7 +31,7 @@ The readme should cover:
 ## Code quality
 
 **Javascript**
-Use the eslint config file in this repo with `prettier` wherever feasible. 
+Use the [eslint config file](https://github.com/detroitledger/codestandards/blob/master/.eslintrc.js) in this repo with `[prettier](https://github.com/prettier/prettier)` wherever feasible to help keep code consistent. Prettier will automatically format your code on save and alert you to any errors. Packages are available for most major editors. 
 
 **Python**
 
