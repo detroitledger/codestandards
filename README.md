@@ -18,16 +18,16 @@ Use the [MIT license](https://github.com/detroitledger/codestandards/blob/master
 
 **Readme**
 
-Include a readme that makes it easy for most people to get started with the project quickly. Use this template to get started. Here's a [gold-standard readme](https://github.com/nprapps/liveblog) for reference.
+Include a readme that makes it easy for most people to get started with the project quickly. [Use this template](https://github.com/detroitledger/codestandards/blob/master/README-TEMPLATE.md) to get started. Here's a [gold-standard readme](https://github.com/nprapps/liveblog) for reference.
 
 The readme should cover:
 
 1. A few sentences about what the project does
 2. Clear, short instructions on how to run the project and what the output should look like
 3. Instructions on how anyone can install the project. Be explicit about additional steps and requirements (eg how to install dependencies and where to put configuration options). The instructions should work on OSX and unix-y environments; other platform support is a good bonus.  
-4. Optional section for developer notes about code organization and common troubleshooting solutions.
+4. Add optional sections for developer notes about code organization, tests, and common troubleshooting solutions.
 
-# Code quality
+## Code quality
 
 **Javascript**
 Use the eslint config file in this repo with `prettier` wherever feasible. 
