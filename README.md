@@ -14,7 +14,7 @@ We attempt to walk through or link to details on all other concepts where possib
 
 **License**
 
-Use the MIT license. 
+Use the [MIT license](https://github.com/detroitledger/codestandards/blob/master/LICENSE). 
 
 **Readme**
 
