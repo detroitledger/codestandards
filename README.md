@@ -7,6 +7,7 @@ At the Ledger, we work in the open on public-good projects. Our goal is to have 
 We assume that most people running these projects:
 * have basic knowledge of the Unix environment and are familiar with the command line
 * have basic knowledge of the project's language (javasacript, python)
+* have no clue about what your project does or how to get started. 
 
 We attempt to walk through or link to details on all other concepts where possible. 
 
