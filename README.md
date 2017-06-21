@@ -31,11 +31,22 @@ The readme should cover:
 ## Code quality
 
 **Javascript**
-Use the [eslint config file](https://github.com/detroitledger/codestandards/blob/master/.eslintrc.js) in this repo with `[prettier](https://github.com/prettier/prettier)` wherever feasible to help keep code consistent. Prettier will automatically format your code on save and alert you to any errors. Packages are available for most major editors. 
+Use the [eslint config file](https://github.com/detroitledger/codestandards/blob/master/.eslintrc.js) in this repo with [prettier](https://github.com/prettier/prettier) wherever feasible to help keep code consistent. Prettier will automatically format your code on save and alert you to any errors. Packages are available for most major editors. 
 
 **Python**
 
-Use `virtualenv` and `[virtualenvwraper](https://virtualenvwrapper.readthedocs.io/en/latest/index.html)`. Start projects with the `--no-site-packages` flag to keep dependencies clean.
+Use [virtualenv](https://virtualenv.pypa.io/en/stable/) and [virtualenvwraper](https://virtualenvwrapper.readthedocs.io/en/latest/index.html). Start projects with the `--no-site-packages` flag to keep dependencies clean.
 
 Follow [pep8 conventions](https://www.python.org/dev/peps/pep-0008/). Please use a linter to ensure your code looks and works well -- we recommend [pylint](https://www.pylint.org/), which has packages for most major editors. 
 
+We write our code using modern versions whenever possible (eg Python 3.5 and ES6) and note if a tool relies on an older version than the current standard.
+
+## Issues
+
+We track our to-do's and bugs using Github Issues. Anyone can create new issues, suggest feature enhancements or share project-related ideas in our repositories using Issues.
+
+If you're fixing an issue, add it's number to your commit message to automatically close it and more easily reference the solution later. Eg `git commit -m "added unit tests, fixes #3"`
+
+## Collaboration, branches and pull requests
+
+When a repository has multiple contributors who are working at the same time, we work on our own feature branches and then merge working code back into `master` by submitting a pull request. We review each other's pull requests and approve or suggest revisions.
